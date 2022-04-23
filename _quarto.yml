@@ -1,0 +1,20 @@
+project:
+  title: "quarto-medium"
+
+format:
+  html:
+    theme: 
+        light: cerulean
+        dark: superhero
+    fontsize: 16px
+    toc: true
+    html-math-method: katex
+    code-copy: hover
+    code-line-numbers: true
+    code-fold: show
+    highlight-style: atom-one
+    code-overflow: scroll
+    self-contained: true
+    number-sections: true
+    number-depth: 2
+

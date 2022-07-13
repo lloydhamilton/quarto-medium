@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "quarto-demo.html",
+    "href": "quarto-demo.html",
+    "title": "",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nCode\nimport numpy as np\nfrom matplotlib import pyplot as plt\n\ntheta = np.linspace(0, 2*np.pi, 1000)\nr = 3* np.sin(8 * theta)\nplt.polar(theta, r, 'r')  \nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nCode\nimport numpy as np\nfrom matplotlib import pyplot as plt\n\ntheta = np.linspace(0, 2*np.pi, 1000)\nr = 3* np.sin(8 * theta)\nplt.polar(theta+(r<0)*np.pi, np.abs(r), 'r')\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nCode\nimport numpy as np \nx = np.linspace(0, 2.0)\ny = np.sin(np.pi*x)**2\nplt.plot(x, y);\n\n\n\n\n\n\n\nCode\nimport seaborn as sns\niris = sns.load_dataset('iris')\nsns.violinplot(x=iris[\"species\"], y=iris[\"sepal_length\"])\n\n\n<AxesSubplot:xlabel='species', ylabel='sepal_length'>"
+  },
+  {
+    "objectID": "quarto-demo.html#bmi-histplot",
+    "href": "quarto-demo.html#bmi-histplot",
+    "title": "",
+    "section": "2.1 BMI Histplot",
+    "text": "2.1 BMI Histplot\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nCode\nimport seaborn as sns\nsns.histplot(data=diabeties_df, x='bmi');"
+  },
+  {
+    "objectID": "quarto-demo.html#histplots",
+    "href": "quarto-demo.html#histplots",
+    "title": "",
+    "section": "2.2 Histplots",
+    "text": "2.2 Histplots\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\nNote\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\nDanger\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\nTip\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n\n:::{.callout-note} # Note\nThis is a note"
+  }
+]

@@ -2,7 +2,7 @@ project:
   title: "quarto-medium"
 
 format:
-  html:
+  gfm:
     theme: 
         light: cerulean
         dark: superhero

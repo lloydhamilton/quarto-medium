@@ -12,7 +12,7 @@ format:
     code-copy: hover
     code-line-numbers: true
     code-fold: show
-    highlight-style: atom-one
+    #highlight-style: atom-one
     code-overflow: scroll
     self-contained: false
     number-sections: true

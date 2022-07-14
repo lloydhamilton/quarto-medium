@@ -14,7 +14,7 @@ format:
     code-fold: show
     highlight-style: atom-one
     code-overflow: scroll
-    self-contained: true
+    self-contained: false
     number-sections: true
     number-depth: 2
 
